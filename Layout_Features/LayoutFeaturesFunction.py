@@ -30,8 +30,8 @@ def LayoutFeatures(img):
     # TextFull=pytesseract.image_to_string(img)
     # TextSent=[x for x in TextFull.split('\n')]
     n_boxes = len(d['level'])
-    n_paras=len(d['par_num'])
-    n_lines=len(d['line_num'])
+    # n_paras=len(d['par_num'])
+    # n_lines=len(d['line_num'])
     # print(n_boxes,n_paras,n_lines)
     # print(len(TextSent),n_boxes)
     # print(d.keys())

@@ -4,10 +4,10 @@ import os
 import numpy as np
 def cluster_no(img_test,test_folder,k):
     i=0
-    folder='b/'
+    folder='b/'  # test images folder
     #lss=[]
-    dist=[]
-    features1=[] 
+    dist=[] 
+    features1=[] # 
     for foldername in  os.listdir(folder):
         for filename in os.listdir(str(folder+'/'+foldername+'/')):
             img=Image.open(os.path.join(folder,foldername,filename))
