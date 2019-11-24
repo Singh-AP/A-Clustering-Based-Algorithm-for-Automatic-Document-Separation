@@ -14,8 +14,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
-img1=Image.open('dataset/novel.png')
-img2=Image.open('dataset/novel2.png')
+# img1=Image.open('dataset/novel.png')
+# img2=Image.open('dataset/novel2.png')
 
 
 ##############################################################################################
@@ -112,5 +112,5 @@ def text_similarity(img1,img2):
     return cosine_similarity([vec1],[vec2])
 
 
-aa=text_similarity(img1,img2)
-print(aa)
+# aa=text_similarity(img1,img2)
+# print(aa)
