@@ -28,13 +28,18 @@ def cluster_no(img_test,k):
                 break
 
     index=np.argsort(dist)
-    maxx=np.zeros((17,1))
+    maxx=np.zeros((17,1),dtype='int32')
     for i in range(0,k):
-        maxx[labels[index[i]]]+=1
+        maxx[int(labels[index[i]])]+=1
     maxxx=-1
     maxxx=np.max(maxx)
     return maxxx 
     
 
              
-print(cluster_no(Image.open('novel.png'),17))
+#print(cluster_no(Image.open('novel.png'),17))
+print("Path to image for which the cluster no is to be found")
+a=input()
+b=cluster_no(a,4)
+print("The cluster no for the image are:-")
+print(b)
