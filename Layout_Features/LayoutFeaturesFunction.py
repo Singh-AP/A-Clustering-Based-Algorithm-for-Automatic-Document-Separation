@@ -76,4 +76,4 @@ def LayoutFeatures(img):
     DictLayoutFeatures=np.asarray([AvgCharWidth,AvgWordHeight,AvgLineSpacing,AvgWordSpacing],dtype="float64")
     return DictLayoutFeatures
 
-print(LayoutFeatures(Image.open("novel.png")))
+#print(LayoutFeatures(Image.open("novel.png")))
