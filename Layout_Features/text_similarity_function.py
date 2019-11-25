@@ -106,7 +106,10 @@ def text_similarity(img1,img2):
 
     vec1=np.asarray(vec1)
     vec2=np.asarray(vec2)
-
+    #vec1=vec1.reshape((1,))
+    #vec2=vec2.reshape((1,))
+    if(vec1.shape==(0,)):
+        return 0
     #print(vec1)
     #print(vec2)
     return cosine_similarity([vec1],[vec2])

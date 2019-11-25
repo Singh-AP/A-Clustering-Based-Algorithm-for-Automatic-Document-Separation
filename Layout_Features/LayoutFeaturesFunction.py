@@ -69,10 +69,10 @@ def LayoutFeatures(img):
         # if i==6:
         #     print(txt,len(txt))
         # cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
-    AvgWordHeight/=n_boxes
-    AvgCharWidth/=TotalChars
-    AvgWordSpacing/=n_boxes
-    AvgLineSpacing/=SentenceCount
+    AvgWordHeight/=(n_boxes+1)
+    AvgCharWidth/=(TotalChars+1)
+    AvgWordSpacing/=(n_boxes+1)
+    AvgLineSpacing/=(SentenceCount+1)
     DictLayoutFeatures=np.asarray([AvgCharWidth,AvgWordHeight,AvgLineSpacing,AvgWordSpacing],dtype="float64")
     return DictLayoutFeatures
 
