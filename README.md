@@ -4,7 +4,7 @@
 [![Generic badge](https://img.shields.io/badge/built-with_love-red)](https://shields.io/)
 
 Semester Project, Digital Image Processing, Monsoon 2019.<br>
-Contributors: [Amrit Preet Singh](https://github.com/TheIndianCoder), [Mehtaab Singh Hazra] (https://github.com/mehtabhazra1998)
+Contributors: [Amrit Preet Singh](https://github.com/TheIndianCoder), [Mehtaab Singh Hazra](https://github.com/mehtabhazra1998)
 ## BRIEF Description
 
 A model to estimate inter page similarity in order to separate pages into ordered collections of document images . The features obtained from the query image is used to assign the cluter number to the image.
