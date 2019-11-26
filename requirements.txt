@@ -58,7 +58,7 @@ matplotlib == 3.0.3
 
 # Layout_Features/text_similarity_function.py: 8,9,10
 # text_similarity.py: 8,9,10
-nltk == 3.4.1
+nltk == 3.4.5
 
 # Layout_Features/dip/lib/python3.6/site-packages/numpy/testing/_private/decorators.py: 131,218,258
 # Layout_Features/dip/lib/python3.6/site-packages/numpy/testing/_private/noseclasses.py: 17,18,19
