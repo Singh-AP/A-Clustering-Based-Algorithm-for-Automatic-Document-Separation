@@ -24,7 +24,7 @@ Cython == 0.29.7
 # Layout_Features/text_similarity_function.py: 1
 # Layout_Features/text_similarity_matrix.py: 5
 # text_similarity.py: 1
-Pillow == 6.2.0
+Pillow == 8.1.1
 
 # Layout_Features/dip/lib/python3.6/site-packages/setuptools/ssl_support.py: 45,46
 # Layout_Features/dip/lib64/python3.6/site-packages/setuptools/ssl_support.py: 45,46
