@@ -1082,7 +1082,7 @@ setuptools == 41.0.1
 
 # Layout_Features/dip/lib/python3.6/site-packages/pip/__init__.py: 24,40
 # Layout_Features/dip/lib64/python3.6/site-packages/pip/__init__.py: 24,40
-urllib3 == 1.24.3
+urllib3 == 1.26.5
 
 # Layout_Features/dip/lib/python3.6/site-packages/pip/commands/install.py: 10
 # Layout_Features/dip/lib64/python3.6/site-packages/pip/commands/install.py: 10
