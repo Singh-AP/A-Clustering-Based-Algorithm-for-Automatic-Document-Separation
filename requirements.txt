@@ -768,7 +768,7 @@ pathlib2 == 2.3.3
 # Layout_Features/dip/lib64/python3.6/site-packages/pip/vcs/mercurial.py: 8,9,10
 # Layout_Features/dip/lib64/python3.6/site-packages/pip/vcs/subversion.py: 12,166
 # Layout_Features/dip/lib64/python3.6/site-packages/pip/wheel.py: 33,36,37,38,39,40,41,42,552
-pip == 19.1.1
+pip == 21.1
 
 # Layout_Features/LayoutFeaturesFunction.py: 1,2
 # Layout_Features/main.py: 1,2
