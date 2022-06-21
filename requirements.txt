@@ -651,7 +651,7 @@ nose == 1.3.7
 # Layout_Features/text_similarity_function.py: 11
 # Layout_Features/text_similarity_matrix.py: 4
 # text_similarity.py: 11
-numpy == 1.16.2
+numpy == 1.22.0
 
 # Layout_Features/dip/lib/python3.6/site-packages/PIL/FpxImagePlugin.py: 20
 # Layout_Features/dip/lib/python3.6/site-packages/PIL/MicImagePlugin.py: 20
