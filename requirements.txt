@@ -1078,7 +1078,7 @@ scipy == 1.2.1
 # Layout_Features/dip/lib64/python3.6/site-packages/setuptools/unicode_utils.py: 4
 # Layout_Features/dip/lib64/python3.6/site-packages/setuptools/version.py: 1
 # Layout_Features/dip/lib64/python3.6/site-packages/setuptools/wheel.py: 10,11,12,13,14
-setuptools == 41.0.1
+setuptools == 65.5.1
 
 # Layout_Features/dip/lib/python3.6/site-packages/pip/__init__.py: 24,40
 # Layout_Features/dip/lib64/python3.6/site-packages/pip/__init__.py: 24,40
